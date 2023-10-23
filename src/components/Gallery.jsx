@@ -12,10 +12,16 @@ export default function Gallery(){
     <div className="gallery">
       <Header />
       <HornedBeast />
-      <HornedBeast />
       <Footer />
   </div>
   );
 }
+
+
+
+{/* <HornedBeast description={
+  <h2>Sasquatch</h2>
+  <img src="./Images/Cute_horns.jpeg" alt="A sasquatch"/>
+  <p>A wide eyed sasquatch</p>}/> */}
 
 
