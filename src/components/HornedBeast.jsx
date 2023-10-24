@@ -1,14 +1,18 @@
-// h2 that displays title of animal, image element with source, alt and title, and a p that displays the description
+import {useState} from 'react'
 
-export default function HornedBeast() {
-	return <div className="hornedBeast"><h2>Sasquatch</h2>
-  <img src="./Images/Cute_horns.jpeg" alt="A sasquatch"/>
-  <p>A wide eyed sasquatch</p></div>;
+export default function HornedBeast({title, img, description}) {
+  const [favourites, setFavourites] = useState(0)
+
+function handleFavourites(){
+  setFavourites(favourites+1)
+}
+	return (
+  <div className="hornedBeast">
+  <h2>{title}</h2>
+  <img src={img} onClick={handleFavourites}/>
+  <p>{description}</p>
+  <span>❤️{favourites}</span>
+  </div>
+  )
 }
 
-
-{/* <div>
-<h2>Reindeer</h2>
-<img src="./Images/Reindeer_horns.jpeg" alt="A reindeer"/>
-<p>A festive reindeer</p> */}
-// </div> */}

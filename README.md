@@ -1,8 +1,23 @@
-# React + Vite
+Number and name of feature: 1, add images to gallery
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Estimate of time needed to complete: unsure
 
-Currently, two official plugins are available:
+Start time: Start of lab (maybe 14:15?)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Finish time: 14:48
+
+Actual time needed to complete: About 30 mins on and off?
+
+
+******************
+
+
+Number and name of feature: 2, favouriting animals
+
+Estimate of time needed to complete: 25 mins 
+
+Start time: 14:50
+
+Finish time: 15:04
+
+Actual time needed to complete: 14 mins 
