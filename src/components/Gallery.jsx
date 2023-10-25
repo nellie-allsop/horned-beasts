@@ -1,29 +1,19 @@
-// must pass title, imageURL and description into each hornedbeast component
-
-import Header from "./Header";
-
 import HornedBeast from "./HornedBeast";
 
-import Footer from "./Footer";
 
-export default function Gallery(props) {
+export default function Gallery({data}) {
 	return (
-		<div className="gallery">
-			<Header />
-      <div className="animalGrid">
-			{props.animals.map((animals) => {
+		<div className="animalGrid">
+			{data.map((animals) => {
 				return (
 					<HornedBeast
+						key={animals._id}
 						title={animals.title}
 						img={animals.image_url}
 						description={animals.description}
 					/>
 				);
-			})
-      }
-      </div>
-			<Footer />
+			})}
 		</div>
 	);
 }
-

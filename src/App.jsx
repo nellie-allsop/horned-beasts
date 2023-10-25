@@ -1,11 +1,15 @@
 import "./App.css";
+import Header from "./components/Header";
 import Gallery from "./components/Gallery";
-import animalArray from "./Data";
+import Footer from "./components/Footer";
+import data from "./Data"
 
 function App() {
 	return (
 		<div>
-			<Gallery animals={animalArray} />
+			<Header />
+			<Gallery data={data} />
+			<Footer />
 		</div>
 	);
 }
