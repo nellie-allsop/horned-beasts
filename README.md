@@ -1,3 +1,5 @@
+Credit to this video for helping *hugely* with the button to close the modals: https://www.youtube.com/watch?v=i8YLBufmWV4
+
 Number and name of feature: 1, add images to gallery
 
 Estimate of time needed to complete: unsure
@@ -32,4 +34,5 @@ Estimate of time needed to complete: 1 hour 30
 
 Start time: 14:31
 
-Actual time needed to complete: 
+Actual time needed to complete: Finished at 14:08 the day after!!!!!
+
