@@ -8,13 +8,10 @@ import SelectedBeast from "./components/SelectedBeast"
 
 function App() {
 	const [showBeast, setShowBeast] = useState(false)
-	const [shownBeast, setShownBeast] = useState({})
+	const [shownBeast, setShownBeast] = useState({});
 	const handleClose = () => {
-		setShowBeast(false)
-	}
-	const [form, setForm]=useState({
-		numHorns: "",
-	})
+		setShowBeast(false)}
+	const [horns, setHorns] = useState("");
 
 	function handleShowBeast(beast){
 		setShowBeast(!showBeast);
@@ -25,25 +22,24 @@ function App() {
 		event.preventDefault();
 	}
 
-	function handleChange(event) {
-		setForm({ ...form, [event.target.name]: event.target.value})
+	function handleFilter(event) {
+		setHorns(event.target.value)
 	}
 
 	return (
 		<div>
 			<Header />
-			<form onsubmit = {handleSubmit}>
+			<form onSubmit = {handleSubmit}>
 <label> Filter by number of horns </label>
-<input name="numHorns" list="numHorns" onChange={handleChange}/>
-<datalist id="numHorns">
-	<option value="1"></option>
-	<option value="2"></option>
-	<option value="3"></option>
-	<option value="100"></option>
-</datalist>
-<button>Submit</button>
+<select id="numHorns" onChange={handleFilter}>
+	<option value="">Show all beasts</option>
+	<option value="1">1</option>
+	<option value="2">2</option>
+	<option value="3">3</option>
+	<option value="100">100</option>
+</select>
 </form>
-			<Gallery data={data} handleShowSelectedBeast={handleShowBeast} />
+			<Gallery data={data} handleShowSelectedBeast={handleShowBeast} horns={horns} />
 			<Footer />
 			{showBeast && (<SelectedBeast onClose={handleClose} shownBeast={shownBeast}
 			handleShowBeast={handleShowBeast}

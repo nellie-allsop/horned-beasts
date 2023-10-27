@@ -1,9 +1,12 @@
 import HornedBeast from "./HornedBeast";
 
-export default function Gallery({ data, handleShowSelectedBeast }) {
+export default function Gallery({ data, handleShowSelectedBeast, horns }) {
+	const filteredHorns = data.filter(
+		(animals) => animals.horns == horns || horns === ""
+	);
 	return (
 		<div className="animalGrid">
-			{data.map((animals) => {
+			{filteredHorns.map((animals) => {
 				return (
 					<HornedBeast
 						key={animals._id}
