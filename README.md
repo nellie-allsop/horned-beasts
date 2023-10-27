@@ -1,5 +1,12 @@
 Credit to this video for helping *hugely* with the button to close the modals: https://www.youtube.com/watch?v=i8YLBufmWV4
 
+Image credits: 
+
+- Photo by <a href="https://unsplash.com/@benjaminguy?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Benjamin Guy</a> on <a href="https://unsplash.com/photos/brown-animal-on-brown-grass-field-during-daytime-2BAao9zZN0s?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+
+- Photo by <a href="https://unsplash.com/@judithprins?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Judith Prins</a> on <a href="https://unsplash.com/photos/moose-pulling-snow-sled-j1F-WyKgr28?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+    
+
 Number and name of feature: 1, add images to gallery
 
 Estimate of time needed to complete: unsure

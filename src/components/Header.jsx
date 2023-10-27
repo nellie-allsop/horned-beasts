@@ -7,9 +7,12 @@ function handleCookies(){
 	setCookies(cookies+1)
 }
 	return (
-		<header>
-	<h1 className="header">Horned beasts</h1>
-	<button onClick={handleCookies}>🍪Click for a biscuit! You currently have {cookies} of them</button>
+		<header className="header">
+	<h1>Horned beasts</h1>
+	<button onClick={handleCookies}>
+		<p className="buttonText">🍪Click for a biscuit! You currently have {cookies} of them
+		</p>
+		</button>
 	</header>
 	);
 }
